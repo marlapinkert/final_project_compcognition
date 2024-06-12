@@ -21,6 +21,7 @@ From Autism Brain Imaging Data Exchange (ABIDE)
 - random_forrest_with_data.ipynb: Simple rf classifier, some attempts at plotting
 
 ## Next possible steps:
+- Cross validation - maybe OBB?
 - Exclude features with importance = 0? -> 4300 would remain, 15600 are removed
 - Hyperparameter testing: perhaps use sklearn.model_selection.RandomizedSearchCV
 
