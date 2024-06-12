@@ -1,5 +1,9 @@
 # GitHub respository for our final project :)
 
+## Contents
+- download_and_correlation_df.ipynb - calculate connectivity and download data
+- random_forrest_with_data.ipynb - random forrest classifier (work in progress)
+
 ## Data
 From Autism Brain Imaging Data Exchange (ABIDE)
 - Downloaded from https://github.com/preprocessed-connectomes-project/abide using their download_abide_preproc.py script (see /resources)
