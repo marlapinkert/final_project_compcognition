@@ -23,3 +23,8 @@ From Autism Brain Imaging Data Exchange (ABIDE)
 ## Next possible steps:
 - Exclude features with importance = 0? -> 4300 would remain, 15600 are removed
 - Hyperparameter testing: perhaps use sklearn.model_selection.RandomizedSearchCV
+
+## Further things that might be interesting
+- Classify different autism diagnoses?
+- CC400 timeseries: Much more data, but finer parcellation might make for a better predictor
+- Compare RF Model with other models?
