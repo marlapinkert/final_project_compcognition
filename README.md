@@ -9,7 +9,8 @@ From Autism Brain Imaging Data Exchange (ABIDE)
 - Downloaded from https://github.com/preprocessed-connectomes-project/abide using their download_abide_preproc.py script (see /resources)
 - Craddock 200, CC200 timeseries 
 - CPAC → Worked best in classification for Chen et al. 2018
-- See download_and_correlation_df.ipynb 
+- See download_and_correlation_df.ipynb
+- Download dataframe: https://ucloud.univie.ac.at/index.php/s/W8qTeS8m6F33twT 
 
 ## Functional Connectivity
 - Calculate partial correlations
