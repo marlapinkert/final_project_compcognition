@@ -14,7 +14,7 @@ From Autism Brain Imaging Data Exchange (ABIDE)
 
 ## Functional Connectivity
 - Calculate partial correlations
-- Create dataframe with 884 rows (subjects) and 19901 columns (correlations between timeseries)
+- Create dataframe with 884 rows (subjects) and 19901 columns (19900 correlations between timeseries + 1 Identifier)
 - See download_and_correlation_df.ipynb
 
 ## Random Forrest
