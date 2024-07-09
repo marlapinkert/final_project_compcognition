@@ -10,6 +10,7 @@ This is the repository for our final project :)
 - degree_df.csv - Contains dataframe with rows corresponding to individual subjects and columns corresponding to degree of respective ROIs
 - graph_df.csv - Contains dataframe with rows corresponding to individual subjects and columns corresponding to betweenness centrality of respective ROIs
 
+The .csv file which contains the individual correlations between regions is too big to upload, therefore it can be downloaded here: https://ucloud.univie.ac.at/index.php/s/jKogT2Npszs35RT 
 
 ## Data
 From Autism Brain Imaging Data Exchange (ABIDE), downloaded using download_abide_preproc.py script (see /resources). https://github.com/preprocessed-connectomes-project/abide 
