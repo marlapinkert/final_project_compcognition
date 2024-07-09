@@ -12,21 +12,15 @@ This is the repository for our final project :)
 
 
 ## Data
-From Autism Brain Imaging Data Exchange (ABIDE)
-- Downloaded using download_abide_preproc.py script (see /resources). https://github.com/preprocessed-connectomes-project/abide 
-- Craddock 200, CC200 timeseries 
-- CPAC → Worked best in classification for Yang et al. (2020) https://doi.org/10.14569/IJACSA.2020.0110401 
-- Download dataframe: https://ucloud.univie.ac.at/index.php/s/W8qTeS8m6F33twT 
+From Autism Brain Imaging Data Exchange (ABIDE), downloaded using download_abide_preproc.py script (see /resources). https://github.com/preprocessed-connectomes-project/abide 
+Preprocessed data chosen:
+- Atlas: Craddock 200, CC200 timeseries 
+- Pipeline: CPAC → Worked best in classification for Yang et al. (2020) https://doi.org/10.14569/IJACSA.2020.0110401 
 
 ## Functional Connectivity
-- Calculate correlations
+- Calculate correlations between different ROIs
 - Create dataframes with 884 rows (subjects) and 19901 columns (19900 correlations between timeseries + 1 "FILE_ID")
-- See download_and_correlation_df.ipynb
 
-## Next possible steps:
-- Cross validation - maybe OBB?
-- Exclude features with importance = 0? -> 4300 would remain, 15600 are removed
-- Hyperparameter testing: perhaps use sklearn.model_selection.RandomizedSearchCV
-
-## Further things that might be interesting
-- CC400 timeseries: Much more data, but finer parcellation might make for a better predictor
+## Graph Theoretical Measures
+- Calculate betweenness centrality based on proportional thresholds (70 - 90 in steps of 2)
+- Calculate degree based on non-binarized connections, including negative correlations
