@@ -23,5 +23,5 @@ Preprocessed data chosen:
 - Create dataframes with 884 rows (subjects) and 19901 columns (19900 correlations between timeseries + 1 "FILE_ID")
 
 ## Graph Theoretical Measures
-- Calculate betweenness centrality based on proportional thresholds (70 - 90 in steps of 2)
+- Calculate betweenness centrality based on proportional thresholds (70% - 90% in steps of 2)
 - Calculate degree based on non-binarized connections, including negative correlations
