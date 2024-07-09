@@ -10,7 +10,7 @@ This is the repository for our final project :)
 
 ## Data
 From Autism Brain Imaging Data Exchange (ABIDE)
-- Downloaded using download_abide_preproc.py script (see /resources). Source: https://github.com/preprocessed-connectomes-project/abide 
+- Downloaded using download_abide_preproc.py script (see /resources). https://github.com/preprocessed-connectomes-project/abide 
 - Craddock 200, CC200 timeseries 
 - CPAC → Worked best in classification for Yang et al. (2020) https://doi.org/10.14569/IJACSA.2020.0110401 
 - Download dataframe: https://ucloud.univie.ac.at/index.php/s/W8qTeS8m6F33twT 
