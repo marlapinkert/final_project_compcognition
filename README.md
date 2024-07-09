@@ -1,5 +1,5 @@
 # A Random Forest Classifier for ASD based on Resting-State Functional Connectivity
-## *Final Project in Theory and Empirical Research I, supervisors: Dominik Pegler, Mengfan Zhang, Jozsef Arato* :)
+### *Final Project in Theory and Empirical Research I, supervisors: Dominik Pegler, Mengfan Zhang, Jozsef Arato* :)
 Jannis Breßgott, Sara Binder, Marla Pinkert
 
 This is the repository for our final project. 
