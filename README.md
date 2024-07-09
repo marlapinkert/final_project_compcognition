@@ -7,6 +7,9 @@ This is the repository for our final project :)
 ## Contents
 - RF_for_ASD.ipynb.ipynb - Complete Notebook, includes download of data, calculation of functional connectivity measures, training and testing of random forest classifiers, discussion of results.
 - Phenotypic_V1_0b_preprocessed1.csv - Contains phenotypical data such as diagnosis ("DX_GROUP", with 1 = Autism, 0 = Control)
+- degree_df.csv - Contains dataframe with rows corresponding to individual subjects and columns corresponding to degree of respective ROIs
+- graph_df.csv - Contains dataframe with rows corresponding to individual subjects and columns corresponding to betweenness centrality of respective ROIs
+
 
 ## Data
 From Autism Brain Imaging Data Exchange (ABIDE)
